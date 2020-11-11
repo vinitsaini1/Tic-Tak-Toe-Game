@@ -12,9 +12,9 @@ public class TIK_TAK_TOE_GAME {
 							   {' ', '|' , ' ', '|', ' '},
 							   {'-', '+' , '-', '+', '-'},
 							   {' ', '|' , ' ', '|', ' '},
-				               {'-', '+' , '-', '+', '-'},
-				               {' ', '|' , ' ', '|', ' '}
-				              };
+				                           {'-', '+' , '-', '+', '-'},
+				                           {' ', '|' , ' ', '|', ' '}
+				      };
 		
 		printGameBoard(gameBoard);
 		
@@ -114,7 +114,7 @@ public class TIK_TAK_TOE_GAME {
 			gameBoard[4][2] = symbol;
 			break;
 		case 9: 
-			gameBoard[4][4] = 'X';
+			gameBoard[4][4] = symbol;
 			break;
 		default:
 			break;
